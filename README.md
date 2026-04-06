@@ -145,5 +145,3 @@ The JSON file is also saved to the working directory in both cases, so it's avai
 | VaR Confidence | 95% – 99% | Risk appetite |
 
 ---
-
-![alt text](image.png)
