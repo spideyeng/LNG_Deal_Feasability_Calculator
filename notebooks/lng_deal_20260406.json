@@ -6,7 +6,7 @@
   },
   "cargo": {
     "vessel_capacity_m3": 138000.0,
-    "lng_density_t_m3": 0.46,
+    "lng_density_t_m3": 0.45999999999999996,
     "cv_mmbtu_per_tonne": 21.5,
     "bog_rate_pct_per_day": 0.1,
     "voyage_days": 20,
@@ -23,28 +23,28 @@
   "pricing": {
     "buy_type": "JCC Slope",
     "sell_type": "JKM Spot",
-    "buy_price_mmbtu": 13.3304,
+    "buy_price_mmbtu": 13.302,
     "sell_price_mmbtu": 13.9,
-    "raw_spread_mmbtu": 0.5696,
-    "breakeven_sell": 17.5481,
-    "headroom_mmbtu": -3.6481,
+    "raw_spread_mmbtu": 0.598,
+    "breakeven_sell": 17.5183,
+    "headroom_mmbtu": -3.6183,
     "fx_rate": 1.0
   },
   "pnl": {
     "revenue": 18454107.0,
-    "cogs": 18193597.0,
-    "physical_margin": 260511.0,
+    "cogs": 18154836.0,
+    "physical_margin": 299271.0,
     "total_freight": 4052702.0,
     "regas_storage": 597435.0,
-    "bog_expense": 363872.0,
+    "bog_expense": 363097.0,
     "other_costs": 89829.0,
-    "ebitda": -4843328.0,
+    "ebitda": -4803792.0,
     "tax": 0,
     "hedge_pnl": 0.0,
-    "net_profit": -4843328.0,
-    "net_profit_per_mmbtu": -3.6481,
-    "npv": -4827169.0,
-    "roc_pct": -21.264
+    "net_profit": -4803792.0,
+    "net_profit_per_mmbtu": -3.6183,
+    "npv": -4787765.0,
+    "roc_pct": -21.126
   },
   "risk": {
     "hedge_ratio_pct": 80.0,
@@ -59,7 +59,7 @@
     "jkm_shock_mmbtu": -3.0,
     "freight_shock_mmbtu": 0.5,
     "fx_move_pct": 0.0,
-    "stressed_net_profit": -9490045.0,
+    "stressed_net_profit": -9450509.0,
     "pnl_delta_vs_base": -4646718.0
   }
 }
