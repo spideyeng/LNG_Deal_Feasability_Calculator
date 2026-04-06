@@ -5,61 +5,61 @@
     "verdict": "NOT_FEASIBLE"
   },
   "cargo": {
-    "vessel_capacity_m3": 146000.0,
-    "lng_density_t_m3": 0.45999999999999996,
+    "vessel_capacity_m3": 138000.0,
+    "lng_density_t_m3": 0.46,
     "cv_mmbtu_per_tonne": 21.5,
     "bog_rate_pct_per_day": 0.1,
     "voyage_days": 20,
     "heel_m3": 1000.0
   },
   "volumes": {
-    "weight_tonnes": 67160.0,
-    "gross_mmbtu": 1443940.0,
-    "bog_loss_mmbtu": 28879.0,
+    "weight_tonnes": 63480.0,
+    "gross_mmbtu": 1364820.0,
+    "bog_loss_mmbtu": 27296.0,
     "heel_mmbtu": 9890.0,
-    "net_delivered_mmbtu": 1405171.0,
+    "net_delivered_mmbtu": 1327634.0,
     "bog_loss_pct": 2.0
   },
   "pricing": {
     "buy_type": "JCC Slope",
     "sell_type": "JKM Spot",
-    "buy_price_mmbtu": 13.302,
+    "buy_price_mmbtu": 13.3304,
     "sell_price_mmbtu": 13.9,
-    "raw_spread_mmbtu": 0.598,
-    "breakeven_sell": 17.4773,
-    "headroom_mmbtu": -3.5773,
+    "raw_spread_mmbtu": 0.5696,
+    "breakeven_sell": 17.5481,
+    "headroom_mmbtu": -3.6481,
     "fx_rate": 1.0
   },
   "pnl": {
-    "revenue": 19531880.0,
-    "cogs": 19207290.0,
-    "physical_margin": 324590.0,
-    "total_freight": 4242669.0,
-    "regas_storage": 632327.0,
-    "bog_expense": 384146.0,
-    "other_costs": 92155.0,
-    "ebitda": -5026708.0,
+    "revenue": 18454107.0,
+    "cogs": 18193597.0,
+    "physical_margin": 260511.0,
+    "total_freight": 4052702.0,
+    "regas_storage": 597435.0,
+    "bog_expense": 363872.0,
+    "other_costs": 89829.0,
+    "ebitda": -4843328.0,
     "tax": 0,
     "hedge_pnl": 0.0,
-    "net_profit": -5026708.0,
-    "net_profit_per_mmbtu": -3.5773,
-    "npv": -5009937.0,
-    "roc_pct": -20.934
+    "net_profit": -4843328.0,
+    "net_profit_per_mmbtu": -3.6481,
+    "npv": -4827169.0,
+    "roc_pct": -21.264
   },
   "risk": {
     "hedge_ratio_pct": 80.0,
     "hedge_price_mmbtu": 0.0,
-    "var_1d_usd": 160650.0,
-    "var_nd_usd": 160650.0,
+    "var_1d_usd": 151785.0,
+    "var_nd_usd": 151785.0,
     "var_confidence_pct": 95,
     "var_horizon_days": 1,
-    "credit_utilization_pct": 39.06
+    "credit_utilization_pct": 36.91
   },
   "stress": {
     "jkm_shock_mmbtu": -3.0,
     "freight_shock_mmbtu": 0.5,
     "fx_move_pct": 0.0,
-    "stressed_net_profit": -9944807.0,
-    "pnl_delta_vs_base": -4918099.0
+    "stressed_net_profit": -9490045.0,
+    "pnl_delta_vs_base": -4646718.0
   }
 }
